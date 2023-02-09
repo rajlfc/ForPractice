@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		595384B5298A458300313962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595384B4298A458300313962 /* AppDelegate.swift */; };
+		595384B7298A458300313962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595384B6298A458300313962 /* SceneDelegate.swift */; };
+		595384B9298A458300313962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595384B8298A458300313962 /* ViewController.swift */; };
+		595384BC298A458300313962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595384BA298A458300313962 /* Main.storyboard */; };
+		595384BF298A458300313962 /* Cornerradius.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 595384BD298A458300313962 /* Cornerradius.xcdatamodeld */; };
+		595384C1298A458400313962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595384C0298A458400313962 /* Assets.xcassets */; };
+		595384C4298A458500313962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 595384C2298A458500313962 /* LaunchScreen.storyboard */; };
+		595384CF298A458500313962 /* CornerradiusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595384CE298A458500313962 /* CornerradiusTests.swift */; };
+		595384D9298A458500313962 /* CornerradiusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595384D8298A458500313962 /* CornerradiusUITests.swift */; };
+		595384DB298A458500313962 /* CornerradiusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595384DA298A458500313962 /* CornerradiusUITestsLaunchTests.swift */; };
+		595384E8298A45FF00313962 /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595384E7298A45FF00313962 /* RoundedCornerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		595384CB298A458500313962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 595384A9298A458200313962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 595384B0298A458300313962;
+			remoteInfo = Cornerradius;
+		};
+		595384D5298A458500313962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 595384A9298A458200313962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 595384B0298A458300313962;
+			remoteInfo = Cornerradius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		595384B1298A458300313962 /* Cornerradius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cornerradius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		595384B4298A458300313962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		595384B6298A458300313962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		595384B8298A458300313962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		595384BB298A458300313962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		595384BE298A458300313962 /* Cornerradius.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cornerradius.xcdatamodel; sourceTree = "<group>"; };
+		595384C0298A458400313962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		595384C3298A458500313962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		595384C5298A458500313962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		595384CA298A458500313962 /* CornerradiusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CornerradiusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		595384CE298A458500313962 /* CornerradiusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerradiusTests.swift; sourceTree = "<group>"; };
+		595384D4298A458500313962 /* CornerradiusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CornerradiusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		595384D8298A458500313962 /* CornerradiusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerradiusUITests.swift; sourceTree = "<group>"; };
+		595384DA298A458500313962 /* CornerradiusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerradiusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		595384E7298A45FF00313962 /* RoundedCornerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		595384AE298A458300313962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595384C7298A458500313962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595384D1298A458500313962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		595384A8298A458200313962 = {
+			isa = PBXGroup;
+			children = (
+				595384B3298A458300313962 /* Cornerradius */,
+				595384CD298A458500313962 /* CornerradiusTests */,
+				595384D7298A458500313962 /* CornerradiusUITests */,
+				595384B2298A458300313962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		595384B2298A458300313962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				595384B1298A458300313962 /* Cornerradius.app */,
+				595384CA298A458500313962 /* CornerradiusTests.xctest */,
+				595384D4298A458500313962 /* CornerradiusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		595384B3298A458300313962 /* Cornerradius */ = {
+			isa = PBXGroup;
+			children = (
+				595384B4298A458300313962 /* AppDelegate.swift */,
+				595384B6298A458300313962 /* SceneDelegate.swift */,
+				595384B8298A458300313962 /* ViewController.swift */,
+				595384BA298A458300313962 /* Main.storyboard */,
+				595384C0298A458400313962 /* Assets.xcassets */,
+				595384C2298A458500313962 /* LaunchScreen.storyboard */,
+				595384C5298A458500313962 /* Info.plist */,
+				595384BD298A458300313962 /* Cornerradius.xcdatamodeld */,
+				595384E7298A45FF00313962 /* RoundedCornerView.swift */,
+			);
+			path = Cornerradius;
+			sourceTree = "<group>";
+		};
+		595384CD298A458500313962 /* CornerradiusTests */ = {
+			isa = PBXGroup;
+			children = (
+				595384CE298A458500313962 /* CornerradiusTests.swift */,
+			);
+			path = CornerradiusTests;
+			sourceTree = "<group>";
+		};
+		595384D7298A458500313962 /* CornerradiusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				595384D8298A458500313962 /* CornerradiusUITests.swift */,
+				595384DA298A458500313962 /* CornerradiusUITestsLaunchTests.swift */,
+			);
+			path = CornerradiusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		595384B0298A458300313962 /* Cornerradius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595384DE298A458500313962 /* Build configuration list for PBXNativeTarget "Cornerradius" */;
+			buildPhases = (
+				595384AD298A458300313962 /* Sources */,
+				595384AE298A458300313962 /* Frameworks */,
+				595384AF298A458300313962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cornerradius;
+			productName = Cornerradius;
+			productReference = 595384B1298A458300313962 /* Cornerradius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		595384C9298A458500313962 /* CornerradiusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595384E1298A458500313962 /* Build configuration list for PBXNativeTarget "CornerradiusTests" */;
+			buildPhases = (
+				595384C6298A458500313962 /* Sources */,
+				595384C7298A458500313962 /* Frameworks */,
+				595384C8298A458500313962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				595384CC298A458500313962 /* PBXTargetDependency */,
+			);
+			name = CornerradiusTests;
+			productName = CornerradiusTests;
+			productReference = 595384CA298A458500313962 /* CornerradiusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		595384D3298A458500313962 /* CornerradiusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595384E4298A458500313962 /* Build configuration list for PBXNativeTarget "CornerradiusUITests" */;
+			buildPhases = (
+				595384D0298A458500313962 /* Sources */,
+				595384D1298A458500313962 /* Frameworks */,
+				595384D2298A458500313962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				595384D6298A458500313962 /* PBXTargetDependency */,
+			);
+			name = CornerradiusUITests;
+			productName = CornerradiusUITests;
+			productReference = 595384D4298A458500313962 /* CornerradiusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		595384A9298A458200313962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					595384B0298A458300313962 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					595384C9298A458500313962 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 595384B0298A458300313962;
+					};
+					595384D3298A458500313962 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 595384B0298A458300313962;
+					};
+				};
+			};
+			buildConfigurationList = 595384AC298A458200313962 /* Build configuration list for PBXProject "Cornerradius" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 595384A8298A458200313962;
+			productRefGroup = 595384B2298A458300313962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				595384B0298A458300313962 /* Cornerradius */,
+				595384C9298A458500313962 /* CornerradiusTests */,
+				595384D3298A458500313962 /* CornerradiusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		595384AF298A458300313962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595384C4298A458500313962 /* LaunchScreen.storyboard in Resources */,
+				595384C1298A458400313962 /* Assets.xcassets in Resources */,
+				595384BC298A458300313962 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595384C8298A458500313962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595384D2298A458500313962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		595384AD298A458300313962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595384E8298A45FF00313962 /* RoundedCornerView.swift in Sources */,
+				595384B9298A458300313962 /* ViewController.swift in Sources */,
+				595384B5298A458300313962 /* AppDelegate.swift in Sources */,
+				595384BF298A458300313962 /* Cornerradius.xcdatamodeld in Sources */,
+				595384B7298A458300313962 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595384C6298A458500313962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595384CF298A458500313962 /* CornerradiusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595384D0298A458500313962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				595384D9298A458500313962 /* CornerradiusUITests.swift in Sources */,
+				595384DB298A458500313962 /* CornerradiusUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		595384CC298A458500313962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 595384B0298A458300313962 /* Cornerradius */;
+			targetProxy = 595384CB298A458500313962 /* PBXContainerItemProxy */;
+		};
+		595384D6298A458500313962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 595384B0298A458300313962 /* Cornerradius */;
+			targetProxy = 595384D5298A458500313962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		595384BA298A458300313962 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				595384BB298A458300313962 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		595384C2298A458500313962 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				595384C3298A458500313962 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		595384DC298A458500313962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		595384DD298A458500313962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		595384DF298A458500313962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cornerradius/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Totality.Cornerradius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		595384E0298A458500313962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cornerradius/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Totality.Cornerradius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		595384E2298A458500313962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Totality.CornerradiusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cornerradius.app/Cornerradius";
+			};
+			name = Debug;
+		};
+		595384E3298A458500313962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Totality.CornerradiusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cornerradius.app/Cornerradius";
+			};
+			name = Release;
+		};
+		595384E5298A458500313962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Totality.CornerradiusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cornerradius;
+			};
+			name = Debug;
+		};
+		595384E6298A458500313962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Totality.CornerradiusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cornerradius;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		595384AC298A458200313962 /* Build configuration list for PBXProject "Cornerradius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595384DC298A458500313962 /* Debug */,
+				595384DD298A458500313962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595384DE298A458500313962 /* Build configuration list for PBXNativeTarget "Cornerradius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595384DF298A458500313962 /* Debug */,
+				595384E0298A458500313962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595384E1298A458500313962 /* Build configuration list for PBXNativeTarget "CornerradiusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595384E2298A458500313962 /* Debug */,
+				595384E3298A458500313962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595384E4298A458500313962 /* Build configuration list for PBXNativeTarget "CornerradiusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595384E5298A458500313962 /* Debug */,
+				595384E6298A458500313962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		595384BD298A458300313962 /* Cornerradius.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				595384BE298A458300313962 /* Cornerradius.xcdatamodel */,
+			);
+			currentVersion = 595384BE298A458300313962 /* Cornerradius.xcdatamodel */;
+			path = Cornerradius.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 595384A9298A458200313962 /* Project object */;
+}
