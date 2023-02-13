@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MoviesTableViewCell" rowHeight="109" id="KGk-i7-Jjw" customClass="MoviesTableViewCell" customModule="IBArts" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="109"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="372" height="109"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mU-wS-uLb">
+                        <rect key="frame" x="0.0" y="34" width="33" height="47"/>
+                        <fontDescription key="fontDescription" name="SinhalaSangamMN" family="Sinhala Sangam MN" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eqc-59-iRp">
+                        <rect key="frame" x="279" y="0.0" width="93" height="109"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="109" id="BGi-1A-IH3"/>
+                            <constraint firstAttribute="width" constant="93" id="miP-mU-qc7"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eTQ-hi-ACC">
+                        <rect key="frame" x="2" y="87" width="24" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="reu-oa-7aG"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain"/>
+                        <connections>
+                            <action selector="pressedOnFavourite:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="EMO-33-NVu"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="1mU-wS-uLb" secondAttribute="bottom" constant="28" id="CgW-eb-KgL"/>
+                    <constraint firstItem="eTQ-hi-ACC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="2" id="D2q-2q-kDX"/>
+                    <constraint firstAttribute="bottom" secondItem="eTQ-hi-ACC" secondAttribute="bottom" constant="2" id="EZc-Ko-nhj"/>
+                    <constraint firstItem="1mU-wS-uLb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="34" id="F9o-qX-xNv"/>
+                    <constraint firstItem="1mU-wS-uLb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Sol-sO-Z9Y"/>
+                    <constraint firstItem="eqc-59-iRp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ce9-PP-Jcd"/>
+                    <constraint firstAttribute="trailing" secondItem="eqc-59-iRp" secondAttribute="trailing" id="iS9-pT-uFa"/>
+                    <constraint firstAttribute="bottom" secondItem="eqc-59-iRp" secondAttribute="bottom" id="t35-ZR-tdn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="favouriteButton" destination="eTQ-hi-ACC" id="ZhD-da-Ylr"/>
+                <outlet property="moviePoster" destination="eqc-59-iRp" id="FEf-BY-2se"/>
+                <outlet property="movieTitle" destination="1mU-wS-uLb" id="FHA-sM-Rz2"/>
+            </connections>
+            <point key="canvasLocation" x="175.36231884057972" y="101.45089285714285"/>
+        </tableViewCell>
+    </objects>
+</document>
